@@ -1,6 +1,16 @@
 # Demo with Agora.io
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was to explore cool features of Agora.io.
+
+### Demo
+
+From viewers perspective: [https://waitroom.altantur.me/](https://waitroom.altantur.me/)
+From first host perspective: [https://waitroom.altantur.me?host=elon](https://waitroom.altantur.me?host=elon)
+From second host perspective: [https://waitroom.altantur.me?host=jeff](https://waitroom.altantur.me?host=jeff)
+
+### Deployment
+
+Deployed with Netlify 💙. All commits in [main](https://github.com/altantur/waitroom/tree/main) branch triggers deployment.
 
 ## Available Scripts
 
@@ -21,17 +31,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### Demo
-
-From viewers perspective: [https://waitroom.altantur.me/](https://waitroom.altantur.me/)
-From first host perspective: [https://waitroom.altantur.me?host=elon](https://waitroom.altantur.me?host=elon)
-From second host perspective: [https://waitroom.altantur.me?host=jeff](https://waitroom.altantur.me?host=jeff)
-
-### Deployment
-
-Deployed with Netlify 💙. All commits in [main](/altantur/waitroom/tree/main) branch triggers deployment.
-
 
