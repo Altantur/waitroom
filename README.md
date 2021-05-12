@@ -4,13 +4,13 @@ This project was to explore cool features of Agora.io.
 
 ### Demo
 
-From viewers perspective: [https://waitroom.altantur.me/](https://waitroom.altantur.me/)
-From first host perspective: [https://waitroom.altantur.me?host=elon](https://waitroom.altantur.me?host=elon)
-From second host perspective: [https://waitroom.altantur.me?host=jeff](https://waitroom.altantur.me?host=jeff)
+* From viewers perspective: [https://waitroom.altantur.me/](https://waitroom.altantur.me/)
+* From first host perspective: [https://waitroom.altantur.me?host=elon](https://waitroom.altantur.me?host=elon)
+* From second host perspective: [https://waitroom.altantur.me?host=jeff](https://waitroom.altantur.me?host=jeff)
 
 ### Deployment
 
-Deployed with Netlify 💙. All commits in [main](https://github.com/altantur/waitroom/tree/main) branch triggers deployment.
+Deployed with Netlify💙. All commits in [main](https://github.com/altantur/waitroom/tree/main) branch triggers deployment.
 
 ## Available Scripts
 
