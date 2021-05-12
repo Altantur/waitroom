@@ -17,6 +17,7 @@
   flex-grow: 1;
   border-radius: 12px;
   border: 1px solid white;
+  overflow: hidden;
 }
 
 .host .controls {
@@ -49,6 +50,7 @@
   border-radius: 12px;
   border: 1px solid white;
   margin-left: 3vw;
+  overflow: hidden;
 }
 
 .centered {

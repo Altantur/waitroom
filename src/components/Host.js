@@ -4,9 +4,9 @@ class Host extends React.Component {
 
   constructor(props) {
     super(props)
+    console.log(props)
     this.state = { 
       muted: false, 
-      isHost: false, 
       noVideo: false 
     }
     this.toggleAudio = this.toggleAudio.bind(this)
@@ -26,13 +26,9 @@ class Host extends React.Component {
   }
 
   render() {
-    const isHost = this.state.isHost
     return (
       <div className="host">
-        <div className="video-stream centered">
-          Your video stream
-        </div>
-        { isHost &&
+        <div className="video-stream centered" id="me" />
         <div className="controls">
           <div className={ this.state.muted ? 'centered clicked' : 'centered'} onClick={this.toggleAudio}>
             { this.state.muted ? '🔇 Muted ' : '🔈 Mute'}
@@ -41,12 +37,9 @@ class Host extends React.Component {
             { this.state.noVideo ? '😵 Camera Disabled' : '😳 Disable Camera'}
           </div>
         </div>
-        }
-        { isHost &&
         <div className="centered view-count">
           📊 1000 viewers watching this stream
         </div>
-        }
       </div>
     )
   }
